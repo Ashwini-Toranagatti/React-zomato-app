@@ -1,0 +1,113 @@
+.home{
+    height: 90vh;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+
+.headerContainer{
+    width: auto;
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+
+.home .headerContainer h1{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 70px;
+    align-items: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    
+}
+
+.home .headerContainer p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10PX;
+    padding: 0;
+
+}
+
+.home .headerContainer img{
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 21px;
+    margin-bottom: 0px;   
+    align-items: center;
+   
+}
+
+.home .headerContainer button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 190px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transform: translatex(5px);
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.home .headerContainer button:hover{
+    
+    background-color: #333;
+    cursor: pointer;
+    transform: 0.3s ease-in;
+}
+
+/*mobile view*/
+
+@media only screen and (max-width:600px) {
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContainer{
+        align-items: center;
+        margin-left: 0;
+        justify-content: center;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        
+        color: white;
+    }
+
+    .headerContainer h1{
+        font-size: 40px;
+        height: 30px;
+        margin: 45px 0;
+        color: white;
+        }
+        .headerContainer p{
+            font-size: 30px;
+            height: 30px;
+            margin: 45px 0;
+            margin-left: 15px;
+            color: white;
+            }
+    
+}
+
+.home .headerContainer button{
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+}
